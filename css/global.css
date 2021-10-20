@@ -1,0 +1,44 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: maroon;
+}
+
+header{
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+header #logo{
+  padding: 0px;
+}
+
+header #logo img{
+  height: 96px;
+  padding: 0px;
+}
+
+header nav ul{
+  display:flex;
+  justify-content: center;
+}
+
+header nav ul li{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  list-style-type: none;
+}
+
+header nav ul li a{
+  padding: 41px 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .3s linear;
+}
+
+a:hover{
+  background-color: gold;
+}
