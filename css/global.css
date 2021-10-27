@@ -16,7 +16,6 @@ header #logo img{
 }
 
 header nav ul{
-  margin: 16px;
   padding: 0px;
   display:flex;
   justify-content: center;
@@ -43,4 +42,9 @@ a:hover{
 
 #active{
   background-color: gray;
+}
+body{
+  color: #cd853f;
+  text-align: center;
+  background-color: maroon;
 }

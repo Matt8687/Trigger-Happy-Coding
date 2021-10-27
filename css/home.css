@@ -8,8 +8,9 @@ body{
 }
 
 body p{
-  text-align: center;
   width: 48em;
+  margin: auto;
+  padding: 10px;
 }
 
 body h1{
