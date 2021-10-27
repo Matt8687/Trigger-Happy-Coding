@@ -5,6 +5,7 @@ body{
 }
 
 header{
+  justify-content: space-between;
   background-color: white;
   margin: 0px;
   padding: 0px;
@@ -41,4 +42,8 @@ header nav ul li a{
 
 a:hover{
   background-color: gold;
+}
+
+#active{
+  background-color: gray;
 }
