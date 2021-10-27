@@ -1,0 +1,17 @@
+body{
+  background-color: maroon;
+  background-image: url('../images/backgrd.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+body p{
+  text-align: center;
+  width: 48em;
+}
+
+body h1{
+  font-size: 3em;
+}
