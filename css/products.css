@@ -1,23 +1,25 @@
 .content img, p{
-  text-align: center;
+  margin: 0px;
   display: inline-block;
-  justify-content: center;
+  text-align: center;
 }
 
 .content{
   margin: 10%;
-  width: fit-content;
 }
 
 .content img{
-  width: 49%
+  width: 49%;
+  height: 49%;
 }
 
 p{
+  padding-bottom: 1em;
   text-align: left;
   width: 50%
 }
 
 body h1{
   font-size: 3em;
+  margin: 0px;
 }
