@@ -1,5 +1,4 @@
 header{
-  background-color: maroon;
   justify-content: space-between;
   background-color: white;
   margin: 0px 0px 0px 0px;
@@ -10,7 +9,7 @@ header #logo{
   padding: 0px;
 }
 
-header #logo img{
+ #logo img{
   height: 96px;
   padding: 0px;
 }
@@ -18,8 +17,8 @@ header #logo img{
 header nav{
   display: flex;
   justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 header nav ul{
@@ -71,4 +70,49 @@ body h1{
 body p{
     padding-left: 10%;
     padding-right: 10%;
+}
+
+header #icon a{
+  width: 35px;
+  padding: 34px 0px;
+  margin: 0px;
+}
+
+#icon a:hover{
+  background-color: white;
+  color: inherit;
+}
+
+#page-container{
+  position: relative;
+  min-height: 90.5vh;
+}
+
+footer{
+    position: static;
+    bottom: 0;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+  margin: auto;
+  font-size: 16px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  padding-right: 10%;
+  padding-top: 20px;
+}
+
+footer ul li{
+  width: 35px;
 }

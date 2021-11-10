@@ -12,6 +12,7 @@ body p{
 }
 
 #homepageimage{
-  width: 50%;
-  height: auto;
+  width: 80%;
+  height: 400px;
+  overflow: hidden;
 }
