@@ -1,23 +1,25 @@
-body{
-  margin: 0px;
-}
-.content img, p{
-  margin: 0px;
-  text-align: center;
-}
-
 .content{
+  position: relative;
   display: flex;
-  margin: 0px 10% 1em 10%
-
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.content img{
-  width: 49%;
+#product{
+  width: 400px;
+  height: 500px;
 }
 
-.content .text{
-  font-size: 20px;
-  margin: auto;
-  width: 50%
+#product img{
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#product .text{
+  padding: 0px 50px;
+  width:300px;
+  position: absolute;
+  top: 2px;
 }
