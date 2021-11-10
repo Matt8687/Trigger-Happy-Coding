@@ -3,13 +3,12 @@ body{
   background-image: url('../images/backgrd.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px;
   padding: 0px;
 }
 
 body p{
-  width: 48em;
   margin: auto;
+
 }
 
 #homepageimage{
