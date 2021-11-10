@@ -1,5 +1,4 @@
 .content{
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -8,6 +7,7 @@
 #product{
   width: 400px;
   height: 500px;
+  position: relative;
 }
 
 #product img{
@@ -15,11 +15,22 @@
   height: 500px;
   object-fit: cover;
   overflow: hidden;
+  transition: .3s linear;
 }
 
-#product .text{
+.text{
+  display: none;
   padding: 0px 50px;
   width:300px;
   position: absolute;
-  top: 2px;
+  top: 14px;
+}
+
+img:hover + .text{
+  display:block;
+  color: white;
+}
+
+img:hover{
+    filter:brightness(50%);
 }
