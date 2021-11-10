@@ -48,6 +48,8 @@ body{
   color: #cd853f;
   text-align: center;
   background-color: maroon;
+  padding: 0px;
+  margin: 0px;
 }
 
 body p{
