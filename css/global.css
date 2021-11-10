@@ -15,11 +15,17 @@ header #logo img{
   padding: 0px;
 }
 
+header nav{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
 header nav ul{
   margin: 0px;
   padding: 0px;
-  display:flex;
-  justify-content: center;
+  display: flex;
 }
 
 header nav ul li{
@@ -27,9 +33,11 @@ header nav ul li{
   padding: 0px;
   text-align: center;
   list-style-type: none;
+  justify-content: space-between;
 }
 
 header nav ul li a{
+  width: 80px;
   padding: 41px 20px;
   display: inline-block;
   text-decoration: none;
@@ -37,7 +45,7 @@ header nav ul li a{
   transition: all .3s linear;
 }
 
-a:hover{
+li a:hover{
   background-color: gold;
 }
 
