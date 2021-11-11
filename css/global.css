@@ -86,7 +86,7 @@ header #icon a{
 #page-container{
   position: relative;
   min-height: 90.5vh;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 footer{
