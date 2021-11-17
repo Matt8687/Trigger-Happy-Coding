@@ -1,6 +1,10 @@
-#outsidebakery{
-  width: 50%;
-  height: auto;
+.Contact_Photo{
+  width: 25%;
+  float: left;
+}
+
+.Contact_Info{
+  margin-bottom: 10%;
 }
 
 h1{
