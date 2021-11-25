@@ -54,13 +54,8 @@ body p{
 }
 
 #info #button{
+  border: 0;
   margin: 10px;
   padding: 0px 40px;
   background-color: gold;
-}
-
-#button{
-  margin: 10px;
-  padding: 0px 40px;
-  background-color: maroon;
 }
