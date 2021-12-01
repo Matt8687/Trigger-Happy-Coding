@@ -80,13 +80,14 @@ header #icon a{
 
 #icon a:hover{
   background-color: white;
-  color: inherit;
+  color: #cd853f;
 }
 
 #page-container{
+  width: 1000px;
   position: relative;
   min-height: 90.5vh;
-  margin-bottom: 20px;
+  margin: auto;
 }
 
 footer{
