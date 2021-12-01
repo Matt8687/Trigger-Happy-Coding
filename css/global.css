@@ -36,6 +36,7 @@ header nav ul li{
 }
 
 header nav ul li a{
+  color: blue;
   width: 90px;
   padding: 41px 20px;
   display: inline-block;
@@ -45,11 +46,11 @@ header nav ul li a{
 }
 
 li a:hover{
-  background-color: gold;
+  background-color: lightgray;
 }
 
 #active{
-  background-color: gray;
+  background-color: #cd853f;
 }
 body{
   color: #cd853f;
