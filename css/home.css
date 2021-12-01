@@ -1,5 +1,4 @@
 body{
-  background-color: maroon;
   background-image: url('../images/backgrd.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,30 +37,18 @@ body p{
   width: 27%;
 }
 
-.info-circle{
-  margin-top: 50px;
-  position: inherit;
-  bottom: 35px;
-  left: 50%;
-  transform: translate(-50%);
-  border: 2px solid gold;
-  border-radius: 50%;
-  width: 300px;
-  height: 250px;
-}
-
 .info-crcle h1{
   padding: 0px;
 }
 
 #button a{
-  color: maroon;
+  color:  #cd853f;
   text-decoration: none;
   border: 0;
   border-radius: 45%;
   margin: 0;
   padding: 10px;
-  background-color: #cd853f;
+  background-color: #41210F;
 }
 
 #info #button{
