@@ -61,6 +61,7 @@ body{
 }
 
 body p{
+  max-width: 40em;
   font-size: 20px;
 }
 
