@@ -69,6 +69,14 @@ body h1{
   font-size: 3em;
 }
 
+body h2{
+  font-size: 2em;
+}
+
+body h3{
+  font-size: 1.25em;
+}
+
 body p{
     padding-left: 10%;
     padding-right: 10%;

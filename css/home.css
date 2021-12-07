@@ -21,7 +21,7 @@ body p{
   color: white;
   position: absolute;
   left: 50%;
-  top: 15%;
+  top: 25%;
   transform: translate(-50%);
 }
 
