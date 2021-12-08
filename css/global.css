@@ -5,11 +5,11 @@ header{
   padding: 0px;
 }
 
-header #logo{
+header .logo{
   padding: 0px;
 }
 
- #logo img{
+ .logo img{
   height: 96px;
   padding: 0px;
 }
@@ -88,13 +88,13 @@ li{
   font-family: 'PT Serif', serif;
 }
 
-header #icon a{
+header .icon a{
   width: 35px;
   padding: 34px 0px;
   margin: 0px;
 }
 
-#icon a:hover{
+.icon a:hover{
   background-color: white;
   color: #cd853f;
 }

@@ -13,7 +13,7 @@ a{
   color: #cd853f;
 }
 
-#product{
+.product{
   margin: 7.5px;
   width: 300px;
   height: 400px;
@@ -21,7 +21,7 @@ a{
   transition: .3s linear;
 }
 
-#product img{
+.product img{
   width: 300px;
   height: 400px;
   object-fit: cover;
@@ -34,7 +34,7 @@ h3{
   background-color: #cd853f;
 }
 
-#buy-link h3{
+.buy-link h3{
   width: 40%;
   border: 0;
   margin: auto;
@@ -53,11 +53,11 @@ h3{
   top: 8px;
 }
 
-#product:hover img{
+.product:hover img{
     filter:brightness(40%);
 }
 
-#product:hover .text{
+.product:hover .text{
   display:block;
   display: block;
   color: white;

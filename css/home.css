@@ -39,7 +39,7 @@ body p{
   padding: 0px;
 }
 
-#button a{
+.button a{
   color:  #41210F;
   text-decoration: none;
   border: 0;
@@ -49,7 +49,7 @@ body p{
   background-color: #cd853f;
 }
 
-#info #button{
+#info .button{
   border: 0;
   margin: 20px;
   padding: 0px 40px;
